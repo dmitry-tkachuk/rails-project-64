@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'faker'
-
 users = User.create([{ email: 'user@user.com', password: 'password' }, { email: 'john@gmail.com', password: 'johnny' }])
 categories = Category.create(%w[Sport News Cars Internet].map { |name| { name: } })
 
