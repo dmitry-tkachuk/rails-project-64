@@ -33,7 +33,7 @@ nested_comments = comments.first.children.create([
                                                  ])
 nested_comments.first.children.create([
                                         { content: 'Это просто фантастика? level: deep nested', post: posts.first,
-                                          user: users.scond },
+                                          user: users.second },
                                         { content: 'Почему так много обсуждений? level: deep nested', post: posts.first,
                                           user: users.first }
                                       ])
