@@ -1,0 +1,33 @@
+ru:
+  errors:
+    messages:
+      blank: не может быть пустым
+  activerecord:
+    models:
+      post:
+        one: Пост
+        few: Поста
+        many: Постов
+        other: Пост
+      post/comment: Комментарий
+
+    attributes:
+      user:
+        email: Email
+        password: Пароль
+      post:
+        title: Заголовок
+        body: Содержание
+        category: Категория
+      post_comment:
+        content: Тело
+      category:
+        title: Категория
+
+
+    errors:
+      models:
+        post:
+          attributes:
+            title:
+              blank: Должно быть заполнено

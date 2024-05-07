@@ -1,41 +1,43 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-ruby "3.1.2"
+source 'https://rubygems.org'
 
-gem "rails", "~> 7.1.3", ">= 7.1.3.2"
-gem "sprockets-rails"
+ruby '3.1.2'
 
-gem "puma", ">= 5.0"
+gem 'rails', '~> 7.1.3', '>= 7.1.3.2'
+gem 'sprockets-rails'
+
+gem 'puma', '>= 5.0'
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
-gem "jsbundling-rails"
+gem 'jsbundling-rails'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+gem 'turbo-rails'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
+gem 'stimulus-rails'
 
 # Bundle and process CSS [https://github.com/rails/cssbundling-rails]
-gem "cssbundling-rails"
+gem 'cssbundling-rails'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
-gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
-gem "bootsnap", require: false
+gem 'bootsnap', require: false
+gem 'jbuilder'
+gem 'tzinfo-data', platforms: %i[mswin mswin64 mingw x64_mingw jruby]
 
 gem 'sentry-rails'
 gem 'sentry-ruby'
 gem 'slim-rails'
 
-gem 'devise', '~> 4.9'
-gem 'simple_form', '~> 5.3'
 gem 'ancestry', '~> 4.3'
+gem 'devise', '~> 4.9'
 gem 'devise-i18n', '~> 1.12'
+gem 'simple_form', '~> 5.3'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
+  gem 'debug', platforms: %i[mri mswin mswin64 mingw x64_mingw]
   gem 'faker'
   gem 'rubocop'
   gem 'rubocop-performance'

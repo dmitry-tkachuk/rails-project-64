@@ -1,0 +1,16 @@
+ru:
+  shared:
+    title: Коллективный блог
+    sign_in: Войти
+    sign_up: Зарегистрироваться
+    new_post: Новый пост
+    logout: Выйти
+  post:
+    index:
+      title: Коллективный блог
+    show:
+      all_posts_link: Все посты
+      comments: Комментарии
+    new:
+      title: Новый пост
+    liked: Понравилось
