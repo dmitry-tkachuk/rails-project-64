@@ -8,6 +8,7 @@ AllCops:
   TargetRailsVersion: 7
   DisplayCopNames: true
   Exclude:
+    - 'db/schema.rb'
     - 'bin/**'
     - 'vendor/**/*'
     - 'node_modules/**/*'
