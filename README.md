@@ -4,7 +4,7 @@
 
 # Collective blog
 
-[Homepage](https://collective-blog-64.onrender.com/) - Running thematic blogs has never been easier. Create, comment, like!
+[Homepage](https://rails-project-64-ixhp.onrender.com) - Running thematic blogs has never been easier. Create, comment, like!
 
 ### Run the following command to local usage:
 
