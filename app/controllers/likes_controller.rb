@@ -5,7 +5,7 @@ class LikesController < ApplicationController
   before_action :set_post, only: %i[create]
 
   def create
-    @like = @post.likes.new({ user_id: current_user.id })
+    @like = @post.likes.find_or_create_by(user_id: current_user.id)
 
     respond_to do |format|
       if @like.save

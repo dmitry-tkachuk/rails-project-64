@@ -24,10 +24,14 @@ ru:
       category:
         title: Категория
 
-
     errors:
       models:
         post:
           attributes:
             title:
-              blank: Должно быть заполнено
+              blank: не может быть пустым
+        post_comment:
+          attributes:
+            content:
+              blank: комментария не может быть пустым
+
